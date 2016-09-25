@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="查找"
+        android:id="@+id/search_btn"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+        app:showAsAction="always"/>
+
 </menu>
