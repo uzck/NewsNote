@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+
+    <dbname value="notetest"></dbname>
+
+    <version value="6"></version>
+
+    <list>
+        <mapping class="com.example.nozoeli.newsnote.bean.NoteBean"></mapping>
+    </list>
+</litepal>

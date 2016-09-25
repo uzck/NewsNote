@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:andorid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    andorid:layout_height="match_parent"
+    andorid:id="@+id/note_main_container"
+    andorid:layout_width="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/note_recycler"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        andorid:id="@+id/add_note"
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_gravity="bottom|end"
+        andorid:layout_margin="@dimen/fab_margin"
+        andorid:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/colorPrimary"/>
+</android.support.design.widget.CoordinatorLayout>
+

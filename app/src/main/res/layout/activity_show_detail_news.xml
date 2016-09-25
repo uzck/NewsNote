@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_bar"
+        android:background="?attr/colorPrimary"/>
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/detail_toolbar"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/toolbarMenuTheme"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/show_detail_news_content_margin"
+                android:layout_marginEnd="@dimen/show_detail_news_content_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="vertical"
+                    android:id="@+id/title_container"
+                    android:layout_marginBottom="@dimen/show_detail_news_title_container_margin_bottom"
+                    android:paddingTop="@dimen/show_detail_news_title_container_padding_top">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/detail_title"
+                        android:layout_height="@dimen/show_detail_news_title_height"
+                        android:textSize="@dimen/show_detail_news_title_text_size" />
+
+                    <TextView
+                        android:id="@+id/time_and_source"
+                        android:textColor="@color/gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/show_detail_news_time_and_source_height" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_container"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+

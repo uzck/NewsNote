@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myToolBarStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">-10dp</item>
+    </style>
+</resources>

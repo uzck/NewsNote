@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/add_note_status_bar"
+        android:orientation="vertical"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_note_toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="?attr/actionBarSize"
+        android:titleTextColor="@color/white"
+        android:title=""/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <EditText
+            android:id="@+id/add_note_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_note_title_height"
+            android:textSize="@dimen/add_note_title_text_size"
+            android:hint="@string/note_title_hint"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/add_note_title_margin_top"/>
+
+        <EditText
+            android:id="@+id/add_note_content"
+            android:background="@null"
+            android:gravity="top"
+            android:paddingLeft="@dimen/add_note_content_padding"
+            android:paddingRight="@dimen/add_note_content_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

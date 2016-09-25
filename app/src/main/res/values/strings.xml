@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">做点笔记</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="save_the_news">已保存到笔记</string>
+    <string name="delete_the_news">从笔记中移除</string>
+    <string name="action_settings">Settings</string>
+    <string name="note_title_hint">标题</string>
+    <string name="loading">加载中...</string>
+    <string name="net_error">好像网络出了点问题....请连接网络</string>
+    <string name="memu_item_news">新闻</string>
+    <string name="menu_item_note">笔记</string>
+</resources>

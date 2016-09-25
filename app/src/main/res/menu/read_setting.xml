@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_to_favorite"
+        android:icon="@drawable/favoriate_white"
+        android:title="添加到笔记"
+        app:showAsAction="always"/>
+
+    <!--<item-->
+    <!--android:id="@+id/night_mode"-->
+    <!--android:title="夜间模式"-->
+    <!--android:icon="@drawable/ic_brightness_2_black_24dp"-->
+    <!--app:showAsAction="always"-->
+    <!--/>-->
+</menu>

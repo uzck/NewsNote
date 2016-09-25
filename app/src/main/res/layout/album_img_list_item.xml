@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/album_img_list_item_height"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/album_img_list_margin"
+    android:layout_marginLeft="@dimen/album_img_list_margin"
+    android:layout_marginRight="@dimen/album_img_list_margin">
+
+    <TextView
+        android:id="@+id/pic_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_img_pic_title_height"
+        android:layout_marginTop="@dimen/album_img_pic_title_margin_top"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/first_pic_container"
+            android:layout_width="@dimen/album_img_pic_width"
+            android:layout_weight="1"
+            android:layout_height="@dimen/album_img_pic_height"
+            android:layout_marginRight="@dimen/album_img_pic_margin_right"/>
+
+        <ImageView
+            android:id="@+id/second_pic_container"
+            android:layout_width="@dimen/album_img_pic_width"
+            android:layout_weight="1"
+            android:layout_height="@dimen/album_img_pic_height"
+            android:layout_marginRight="@dimen/album_img_pic_margin_right"/>
+
+        <ImageView
+            android:id="@+id/third_pic_container"
+            android:layout_width="@dimen/album_img_pic_width"
+            android:layout_weight="1"
+            android:layout_height="@dimen/album_img_pic_height" />
+    </LinearLayout>
+</LinearLayout>
